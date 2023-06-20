@@ -14,7 +14,7 @@ func NewInvestor(id string) *Investor {
 }
 
 // adiciona um novo asset na carteira do investidor
-func (i *Investor) addAssetPosition(assetPosition *InvestorAssetPosition) {
+func (i *Investor) AddAssetPosition(assetPosition *InvestorAssetPosition) {
 	i.AssetPosition = append(i.AssetPosition, assetPosition)
 }
 
